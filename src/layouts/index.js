@@ -4,8 +4,9 @@ import Helmet from 'react-helmet';
 
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
+
+import '../styles/reset.css';
 import './index.css';
-import '../styles/layout-overide.css';
 
 function Layout({ children, data }) {
 	return (
@@ -17,36 +18,26 @@ function Layout({ children, data }) {
 					{ name: 'keywords', content: 'sample, something' },
 				]}
 			/>
+
 			<Header siteTitle={data.site.siteMetadata.title} />
-			<div
-				style={{
-					margin: '0 auto',
-					maxWidth: 980,
-					display: 'flex',
-					flexDirection: 'row',
-					justifyContent: 'space-between',
-					height: '100%',
-					padding: '25px',
-				}}
-			>
-				<div style={{ flex: 2.5, paddingRight: '30px' }}>{children()}</div>
-				<div style={{ flex: 1 }}>
-					<Sidebar
-						title="WNerd"
-						description="Articles on React and Node.js. All articles are written by Me. Fullstack Web Development."
-					/>
+
+			<div className="contentCon">
+				<main>{children()}</main>
+
+				<aside className="extraBar">
+					<Sidebar title="WNerd" description="A few articles about talks and what's more" />
 					<Sidebar
 						title="About author"
-						description="I am a Full-stack Web Developer specializing in React and Node.js based in Nigeria."
+						description="A front-end developer located in The Netherlands."
 					/>
-				</div>
+				</aside>
 			</div>
 		</div>
 	);
 }
 
 Layout.propTypes = {
-	children: PropTypes.func,
+	children: PropTypes.func.isRequired,
 };
 
 export default Layout;
