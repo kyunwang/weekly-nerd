@@ -12,5 +12,6 @@ module.exports = {
 				name: 'pages',
 			},
 		},
+		`gatsby-transformer-remark`,
 	],
 };
