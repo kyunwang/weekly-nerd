@@ -1,10 +1,16 @@
+// @flow
+
 import React from 'react';
 
 import Link from 'gatsby-link';
 
 import './index.css';
 
-function Header({ siteTitle }) {
+type Props = {
+	siteTitle: string,
+ };
+
+function Header({ siteTitle }: Props) {
 	return (
 		<header>
 			<div>
