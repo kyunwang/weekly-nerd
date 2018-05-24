@@ -7,6 +7,11 @@ For an overview of the project structure please refer to the [Gatsby documentati
 
 ## Getting started
 
+
+
+Writing CSS Modules in GatsbyJs:
+To tell Gatsby you want to use CSS Modules you need to name the file like so *.module.css. Notice the *module*? This indicates to Gatsby that we want to make use of CSS Modules
+
 ## Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
