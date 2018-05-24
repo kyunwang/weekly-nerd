@@ -1,14 +1,14 @@
 ---
-path: "/4h-hackathon"
+path: "/5h-hackathon"
 date: "2018-05-22T12:12:12.962Z"
-title: "A 4 hours hackathon"
+title: "A 5 hours hackathon"
 ---
 
 Draft
 
 22 / 5 / 18
 
-On the 18th of May I participated in a hackathon which lasted for 4 hours. The organisor and client of the hackathon was Master Digital Design. They came with a few cases we could select to work for. The cases were from the students and instructors from the Master Digital Design. The goal of the was to help the clients with their concepts and eventually help with making a prototype.
+On the 18th of May I participated in a hackathon which lasted for 5 hours. The organisor and client of the hackathon was Master Digital Design. They came with a few cases we could select to work for. The cases were from the students and instructors from the Master Digital Design. The goal of the was to help the clients with their concepts and eventually help with making a prototype.
 
 The case I have selected was called *The future of sleep* from Matthew. His concept was about the possibilities of manipulating sleep in the future. About what TDCS (Transcranial direct current stimulation) and TMS (Transcranial magnetic stimulation) could do to affect ones sleep.
 
@@ -24,7 +24,7 @@ Because of this the prototype is really barebones with no styling. We did accomp
 
 It seemed that we did help out a lot with thinking together with Matthew about the concept, asking questions, estimating problems, scenarios and possible hard aspects in developing.
 
-The hackathon was really fun, but sadly we only had 4 hours for discussing and prototyping, therefore not a lot could be realised. I do feel we helped Matthew with some of his problems and could steer him in a good way.
+The hackathon was really fun, but sadly we only had 5 hours for discussing and prototyping(and the long compiling time...), therefore not a lot could be realised. I do feel we helped Matthew with some of his problems and could steer him in a good way.
 
 This is the [repo](https://github.com/kyunwang/future-of-sleep)
 
