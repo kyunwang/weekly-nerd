@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import '../styles/blog-listing.css';
+import styles from  '../styles/blog-listing.module.css';
 
 function IndexPage({ data }) {
 	const { edges: posts } = data.allMarkdownRemark;
@@ -10,7 +10,7 @@ function IndexPage({ data }) {
 		<div className="blog-posts">
 			{posts.filter(post => post.node.frontmatter.title.length > 0).map(({ node: post }) => {
 				return (
-					<div className="blog-post-preview" key={post.id}>
+					<div className={styles['blog-post-preview']} key={post.id}>
 						<h1>
 							<Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
 						</h1>

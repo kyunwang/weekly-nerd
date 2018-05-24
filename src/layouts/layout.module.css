@@ -1,25 +1,26 @@
-* {
-    background: #f5f5f5;
-    color: black;
-}
-
 html {
     height: 100%;
+    background: #f5f5f5;
+    color: #3a3a3a;
 }
 
 body {
     height: 100%;
-    border: .4rem solid #ffdb3a;
+    border: 0.4rem solid #ffdb3a;
 }
 
 h1 {
     font-size: 1.5rem;
-    line-height: 0.5rem;
+    line-height: 1.7rem;
 }
 
 p,
 div {
     font-size: 1rem;
+}
+
+a {
+    color: #3a3a3a;
 }
 
 .contentCon {
@@ -36,7 +37,7 @@ div {
     flex: 1;
 }
 
-main {
+.childCon {
     flex: 2.5;
     padding: 2rem;
     padding-top: 0;

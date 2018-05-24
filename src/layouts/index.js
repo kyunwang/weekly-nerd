@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 
 import '../styles/reset.css';
-import './index.css';
+import styles from './layout.module.css';
 
 function Layout({ children, data }) {
 	return (
@@ -21,11 +21,11 @@ function Layout({ children, data }) {
 
 			<Header siteTitle={data.site.siteMetadata.title} />
 
-			<div className="contentCon">
-				<main>{children()}</main>
+			<div className={styles.contentCon}>
+				<main className={styles.childCon}>{children()}</main>
 
-				<aside className="extraBar">
-					<Sidebar title="WNerd" description="A few articles about talks and what's more" />
+				<aside className={styles.extraBar}>
+					<Sidebar title={data.site.siteMetadata.title} description="A few articles about talks and what's more" />
 					<Sidebar
 						title="About author"
 						description="A front-end developer located in The Netherlands."

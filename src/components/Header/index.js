@@ -4,7 +4,7 @@ import React from 'react';
 
 import Link from 'gatsby-link';
 
-import './index.css';
+import styles from './header.module.css';
 
 type Props = {
 	siteTitle: string,
@@ -12,10 +12,10 @@ type Props = {
 
 function Header({ siteTitle }: Props) {
 	return (
-		<header>
+		<header className={styles.header}>
 			<div>
 				<h1>
-					<Link to="/" className="link">
+					<Link to="/" className={styles.link}>
 						{siteTitle}
 					</Link>
 				</h1>
