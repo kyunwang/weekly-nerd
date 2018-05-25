@@ -8,7 +8,7 @@ import styles from './header.module.css';
 
 type Props = {
 	siteTitle: string,
- };
+};
 
 function Header({ siteTitle }: Props) {
 	return (
