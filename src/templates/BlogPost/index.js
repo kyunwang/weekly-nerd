@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 
 function BlogPost({ data }) {
 	const post = data.markdownRemark;
+
 	return (
 		<div className="blog-post-container">
 			<Helmet title={`WNerd - ${post.frontmatter.title}`} />
