@@ -21,3 +21,10 @@ By *Manjula Dube* from Bookmyshow
 
 # Fourth talk: Mixed Mode React
 By *Ken Wheeler* from Formidable
+
+The cool people at React Amsterdam have recorded all the talks which you can find here:
+- [General Track](https://www.youtube.com/watch?v=smBND2pwdUE&t=18146s)
+- [React Native Track](https://www.youtube.com/watch?v=N-X3Z5A-pW4)
+
+*Yes I wrote this a month after the conference*
+
