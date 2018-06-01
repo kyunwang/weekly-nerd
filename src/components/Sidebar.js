@@ -1,7 +1,13 @@
+// @flow
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Sidebar(props) {
+type Props = {
+	title: string,
+	description: string
+}
+
+function Sidebar(props: Props) {
 	return (
 		<div
 			style={{
