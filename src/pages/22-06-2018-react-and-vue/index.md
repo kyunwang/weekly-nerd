@@ -28,6 +28,8 @@ They say that React is good for large scale and Vue for small to mid-scale appli
 
 Same applies to Angular which is said to be for enterprise applications. Again *Why?*.
 
+One reason might be how Vue re-renders components compared to React, but would this be a deal breaker? You can read about it [here][vue-comp-reat]
+
 # What is great
 
 In the end, I liked both React and Vue, apart from the question of what tool is the best for the job. These are the things I like about them.
@@ -39,7 +41,7 @@ Vue:
 - Easy to learn
 - Vuex (Heaven compared to Redux)
 - Write less code
-- `Vue.use` Love how this makes `Vuex` available everywhere unlike Redux
+- `Vue.use`: Love how this makes `Vuex` available everywhere unlike Redux
 
 React:
 - Quick to start (Using CRA)
@@ -49,4 +51,15 @@ React:
 
 Which tools is the best for what use case? If you have the answer for me, hit me up at [@kyunwang][twitter]
 
+
+Sources:
+- https://vuejs.org/v2/guide/comparison.html#React
+- https://medium.com/@dalaidunc/10-things-i-love-about-vue-505886ddaff2
+- https://stories.jotform.com/7-reasons-why-you-should-use-react-ad420c634247
+- Talk: Harijs Deksnis at VueJS MeetUp Amsterdam - Vuejs vs React with Adidas
+
+
+
+
 [twitter]: https://twitter.com/kyunwang
+[vue-comp-react]: https://vuejs.org/v2/guide/comparison.html#React
