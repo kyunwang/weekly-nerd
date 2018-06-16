@@ -2,6 +2,7 @@
 path: "/react-amsterdam-2018"
 date: "2018-05-23T17:12:33.962Z"
 title: "Short visit at React Amsterdam"
+draft: true
 ---
 
 draft
@@ -11,7 +12,7 @@ All of the sudden I had the opportunity to got to React Amsterdam albeit just fo
 *React Amsterdam was on the 13th of April 2018*
 
 # First talk: React State Management in a GraphQL Era
-### By *Kristijan Ristovski* from ReactAcademy
+###### By *Kristijan Ristovski* from ReactAcademy
 
 The day started great with Kristijan, also known as Kitze, giving a great talk about state management libraries and how they might be unnecessary with GraphQL in the scene.
 After a light-hearted intro he gave a short overview about the difference between REST and GraphQL. Namely that REST is dependent on the back-end and needs many API calls to many end-points or with GraphQL which combines everything in one query and giving the power to the client who can define what data it needs.
@@ -31,13 +32,13 @@ New technologies keep comming up and dissapearing, so instead of always asking *
 
 
 # Second talk: GraphQL at scale with AWS
-### By *Richard Threlkeld* from Amazon
+###### By *Richard Threlkeld* from Amazon
 
 [Watch the talk here][richard-threlkeld]
 
 
 # Third talk: Rethinking With React 16
-### By *Manjula Dube* from Bookmyshow
+###### By *Manjula Dube* from Bookmyshow
 
 Manjula talked about what React 16(.3) brings to the world. These are my take-aways from this talk.
 
@@ -71,7 +72,7 @@ And there are more ways to implement refs now. Here is a quick overview:
 
 
 # Fourth talk: Mixed Mode React
-### By *Ken Wheeler* from Formidable
+###### By *Ken Wheeler* from Formidable
 
 [Watch the talk here][ken-wheeler]
 
