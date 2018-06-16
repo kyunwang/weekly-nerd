@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 
 type Props = {
 	title: string,
-	description: string
-}
+	description: string,
+};
 
 function Sidebar(props: Props) {
 	return (
@@ -17,7 +17,8 @@ function Sidebar(props: Props) {
 				marginBottom: '25px',
 			}}
 		>
-			<strong>{props.title}.</strong> {props.description}
+			<strong>{props.title}</strong>
+			<p style={{ margin: 0 }}>{props.description}</p>
 		</div>
 	);
 }

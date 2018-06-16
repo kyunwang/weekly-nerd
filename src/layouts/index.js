@@ -25,7 +25,10 @@ function Layout({ children, data }) {
 				<main className={styles.childCon}>{children()}</main>
 
 				<aside className={styles.extraBar}>
-					<Sidebar title={data.site.siteMetadata.title} description="A few articles about talks and what's more" />
+					<Sidebar
+						// title={data.site.siteMetadata.title}
+						description="Sharing thoughts about tech and stuff and learning how to write."
+					/>
 					<Sidebar
 						title="About author"
 						description="A front-end developer located in The Netherlands."
