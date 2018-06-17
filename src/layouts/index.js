@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 
 import '../styles/reset.css';
-import styles from './layout.module.css';
+import styles from './layout.module.scss';
 
 function Layout({ children, data }) {
 	return (
