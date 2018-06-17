@@ -31,7 +31,7 @@ function Layout({ children, data }) {
 					/>
 					<Sidebar
 						title="About author"
-						description="A front-end developer located in The Netherlands."
+						description="Kevin Wang is a front-end developer located in The Netherlands. kyunwang.nl"
 					/>
 				</aside>
 			</div>
