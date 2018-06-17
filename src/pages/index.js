@@ -5,7 +5,6 @@ import styles from './blog-listing.module.css';
 
 function IndexPage({ data }) {
 	const { edges: posts } = data.allMarkdownRemark;
-	console.log(posts);
 
 	return (
 		<div className={styles['blog-posts']}>
