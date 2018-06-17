@@ -2,16 +2,14 @@
 path: "/react-amsterdam-2018"
 date: "2018-05-23T17:12:33.962Z"
 title: "Short visit at React Amsterdam"
-draft: true
+draft: false
 ---
 
-draft
-
-All of the sudden I had the opportunity to got to React Amsterdam albeit just for a few hours. In this short article I will talk about the four talks I was able to attend and what I have learned from them. I will quickly go over the talks I have attended and my take-aways.
+All of the sudden I had the opportunity to got to React Amsterdam albeit just for a few hours. In this short article I will talk about the four talks I was able to attend and what I have learned from them. I will quickly go over three of the talks I have attended and my take-aways.
 
 *React Amsterdam was on the 13th of April 2018*
 
-# First talk: React State Management in a GraphQL Era
+## First talk: React State Management in a GraphQL Era
 ###### By *Kristijan Ristovski* from ReactAcademy
 
 The day started great with Kristijan, also known as Kitze, giving a great talk about state management libraries and how they might be unnecessary with GraphQL in the scene.
@@ -28,16 +26,17 @@ New technologies keep comming up and dissapearing, so instead of always asking *
 
 > GraphQL is the thing that’s eventually gonna replicate REST, but you keep telling yourself that you don’t need to learn it.
 
-[Watch the talk here][kristijan-ristovski]
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/Q54YDGC_t3Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-
-# Second talk: GraphQL at scale with AWS
+## Second talk: GraphQL at scale with AWS
 ###### By *Richard Threlkeld* from Amazon
 
-[Watch the talk here][richard-threlkeld]
+This talks was all about the features of AWS Appsync.
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/P_mGa91wZ4o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-# Third talk: Rethinking With React 16
+## Third talk: Rethinking With React 16
 ###### By *Manjula Dube* from Bookmyshow
 
 Manjula talked about what React 16(.3) brings to the world. These are my take-aways from this talk.
@@ -68,13 +67,15 @@ And there are more ways to implement refs now. Here is a quick overview:
 
 [Read more about the new lifecycles here][react-blog-lifecycles]
 
-[Watch the talk here][manjula-dube]
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/gb2gXX7xiAM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-# Fourth talk: Mixed Mode React
+## Fourth talk: Mixed Mode React
 ###### By *Ken Wheeler* from Formidable
 
-[Watch the talk here][ken-wheeler]
+In this talk Ken talked about Mixing Renderers and shows us an implementation of it. The renderers are called Renderless Components which are explained in his talk at React Amsterdam 2017. But how do we mix multiple custom renderers nicely without making a mess? It can be done with the Context API, which allows us to utilize Reactivy non-React things as Ken says it. With something he calls the Registration Pattern which registers children with it's parent. With great demo combining Three.js and an Audio renderer Ken shows how the Registration Pattern can be used while playing showing some awesome visuals. 
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/PBpugV5l90c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 The awesome people at React Amsterdam have recorded all the talks which you can find here:
