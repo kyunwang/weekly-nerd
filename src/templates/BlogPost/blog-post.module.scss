@@ -2,9 +2,18 @@
 }
 
 .blog-post {
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
 }
 
 .blog-post-content {
+	h2,
+	h3 {
+		margin-bottom: 0.4rem;
+	}
 }
 
 .blog-post-figure {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import styles from './blog-post-module.css';
+import styles from './blog-post.module.scss';
 
 function BlogPost({ data }) {
 	const post = data.markdownRemark;
