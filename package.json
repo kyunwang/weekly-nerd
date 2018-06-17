@@ -3,13 +3,12 @@
 	"description": "Weekly nerd blog - Gatsby test",
 	"version": "1.0.0",
 	"author": "Kang Yun Wang <wangkevin0987@gmail.com",
-	"homepage": "https://kyunwang.github.io/weekly-nerd/public/",
 	"dependencies": {
-		"gatsby": "^1.9.247",
+		"gatsby": "^1.9.271",
 		"gatsby-link": "^1.6.40",
 		"gatsby-plugin-catch-links": "^1.0.22",
 		"gatsby-plugin-react-helmet": "^2.0.11",
-		"gatsby-source-filesystem": "^1.5.36",
+		"gatsby-source-filesystem": "^1.5.38",
 		"gatsby-transformer-remark": "^1.7.41",
 		"react-helmet": "^5.2.0"
 	},
@@ -18,15 +17,16 @@
 	"scripts": {
 		"build": "gatsby build",
 		"develop": "gatsby develop",
+		"deploy": "gatsby build --prefix-paths && gh-pages -d public",
 		"format": "prettier --write 'src/**/*.js'",
 		"build:flow": "babel src/ -d lib/",
-		"prepublish": "npm run build:flow",
 		"flow": "flow"
 	},
 	"devDependencies": {
 		"babel-cli": "^6.26.0",
 		"babel-preset-flow": "^6.23.0",
 		"flow-bin": "^0.72.0",
+		"gh-pages": "^1.2.0",
 		"prettier": "^1.12.0"
 	}
 }

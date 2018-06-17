@@ -2,6 +2,7 @@ module.exports = {
 	siteMetadata: {
 		title: `The Little Tech Blog`,
 	},
+	pathPrefix: '/weekly-nerd',
 	plugins: [
 		`gatsby-plugin-react-helmet`,
 		`gatsby-plugin-catch-links`,
