@@ -1,0 +1,24 @@
+.blog-post-container {
+}
+
+.blog-post {
+}
+
+.blog-post-content {
+}
+
+.blog-post-figure {
+	// width: 85%;
+	// margin: auto;
+	padding: 0 1.5rem;
+
+	img {
+		margin-bottom: 0;
+	}
+
+	figcaption,
+	a {
+		color: #c3c3c3;
+		font-size: 0.8rem;
+	}
+}
