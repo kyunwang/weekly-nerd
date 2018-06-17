@@ -9,7 +9,7 @@ First of I started out with React Native and recently started playing around wit
 
 *Disclaimer* this is not a React Versus Vue article, but a summary about my short experience with these two technologies.
 
-# The impression
+## The impression
 
 After a long time in the hype and love for Vue, I decided to try it out. Around the start of the Vue boom, I read something in the akin to this: (Don't take my word for it)
 > Vue is a great framework to start with for new developers. Developers who have used frameworks before might feel a bit confused at first.
@@ -20,7 +20,7 @@ For example `vue-router` only needs you to create a router and call `Vue.use(rou
 
 React needs you to write a lot more boilerplate in my opinion(depending on what you use). Importing React, writing your Class, Proptypes, Defaultypes, constructor(this.state now) etc. It creates a clear overview and separation in my opinion but can grow into a behemoth.
 
-# How do I choose the right tool?
+## How do I choose the right tool?
 
 To be honest I do not know. I think most developers choose based on their likes, dislikes and prior experience. You can choose what works best for you and your team, but would that decisions also be the best tools for the job? That is a question I have yet to find and have yet to hear/read about it too.
 
@@ -30,7 +30,7 @@ Same applies to Angular which is said to be for enterprise applications. Again *
 
 One reason might be how Vue re-renders components compared to React, but would this be a deal breaker? You can read about it [here][vue-comp-reat]
 
-# What is great
+## What is great
 
 In the end, I liked both React and Vue, apart from the question of what tool is the best for the job. These are the things I like about them.
 
@@ -53,7 +53,7 @@ Which tools is the best for what use case? If you have the answer for me, hit me
 
 
 Sources:
-- https://vuejs.org/v2/guide/comparison.html#React
+- https://vuejs.org/v2/guide/comparison.html##React
 - https://medium.com/@dalaidunc/10-things-i-love-about-vue-505886ddaff2
 - https://stories.jotform.com/7-reasons-why-you-should-use-react-ad420c634247
 - Talk: Harijs Deksnis at VueJS MeetUp Amsterdam - Vuejs vs React with Adidas
@@ -62,4 +62,4 @@ Sources:
 
 
 [twitter]: https://twitter.com/kyunwang
-[vue-comp-react]: https://vuejs.org/v2/guide/comparison.html#React
+[vue-comp-react]: https://vuejs.org/v2/guide/comparison.html##React
