@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import styles from '../styles/blog-listing.module.css';
+import styles from './blog-listing.module.css';
 
 function IndexPage({ data }) {
 	const { edges: posts } = data.allMarkdownRemark;

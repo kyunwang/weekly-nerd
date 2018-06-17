@@ -1,16 +1,21 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
+import styles from './blog-post-module.css';
+
 function BlogPost({ data }) {
 	const post = data.markdownRemark;
 
 	return (
-		<div className="blog-post-container">
-			<Helmet title={`WNerd - ${post.frontmatter.title}`} />
-			<div className="blog-post">
+		<div className={styles['blog-post-container']}>
+			<Helmet title={`The Litle Tech Blog - ${post.frontmatter.title}`} />
+			<article className={styles['blog-post']}>
 				<h1>{post.frontmatter.title}</h1>
-				<div className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
-			</div>
+				<section
+					className={styles['blog-post-content']}
+					dangerouslySetInnerHTML={{ __html: post.html }}
+				/>
+			</article>
 		</div>
 	);
 }
