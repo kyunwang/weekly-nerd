@@ -15,6 +15,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 							date
 							path
 							title
+							draft
 						}
 					}
 				}

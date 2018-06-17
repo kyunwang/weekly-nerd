@@ -8,17 +8,19 @@ function IndexPage({ data }) {
 
 	return (
 		<div className={styles['blog-posts']}>
-			{posts.filter(post => post.node.frontmatter.title.length > 0).map(({ node: post }) => {
-				return (
-					<div className={styles['blog-post-preview']} key={post.id}>
-						<h1>
-							<Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-						</h1>
-						<h2>{post.frontmatter.date}</h2>
-						<p>{post.excerpt}</p>
-					</div>
-				);
-			})}
+			{posts
+				.filter(post => post.node.frontmatter.title.length > 0 && !post.node.frontmatter.draft)
+				.map(({ node: post }) => {
+					return (
+						<div className={styles['blog-post-preview']} key={post.id}>
+							<h1>
+								<Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+							</h1>
+							<h2>{post.frontmatter.date}</h2>
+							<p>{post.excerpt}</p>
+						</div>
+					);
+				})}
 		</div>
 	);
 }
@@ -34,6 +36,7 @@ export const pageQuery = graphql`
 						title
 						date(formatString: "MMMM DD, YYYY")
 						path
+						draft
 					}
 				}
 			}

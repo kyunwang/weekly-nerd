@@ -2,7 +2,7 @@
 path: "/how-is-your-readability"
 date: "2018-06-12T12:12:12.962Z"
 title: "How is your readability"
-draft: true
+draft: false
 ---
 
 Readability might not be the first thing you think about. When you read or write and when implementing it on something. Nor is it the sexiest thing. Let us take a minute to explore this topic.
