@@ -1,9 +1,10 @@
 ---
-path: "/quick-look-into-react-and-vue"
+path: "/quick-look-into-react-vue"
 date: "2018-06-02T12:12:12.962Z"
 title: "Quick look into React and Vue"
 draft: false
 ---
+
 
 First of I started out with React Native and recently started playing around with Vue.
 
