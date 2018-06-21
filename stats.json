@@ -1,12 +1,12 @@
 {
   "assetsByChunkName": {
+    "path---quick-look-into-react-vue": [
+      "path---quick-look-into-react-vue-10563da6a1e1debed29f.js",
+      "path---quick-look-into-react-vue-10563da6a1e1debed29f.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-a530de674b2c79b1c177.js",
       "component---src-pages-index-js-a530de674b2c79b1c177.js.map"
-    ],
-    "path---bluetooth-on-the-web": [
-      "path---bluetooth-on-the-web-3634dd69a7a00bb18110.js",
-      "path---bluetooth-on-the-web-3634dd69a7a00bb18110.js.map"
     ],
     "path---": [
       "path----80d0e736c30de3c29a86.js",
@@ -17,8 +17,12 @@
       "component---src-layouts-index-js-9c1c3846bf2dacb24299.js.map"
     ],
     "path---index": [
-      "path---index-4790c5995dd4313e8f12.js",
-      "path---index-4790c5995dd4313e8f12.js.map"
+      "path---index-867a32681d5c891a561d.js",
+      "path---index-867a32681d5c891a561d.js.map"
+    ],
+    "path---native-browser-api": [
+      "path---native-browser-api-2f6df8e89c0d269f90fc.js",
+      "path---native-browser-api-2f6df8e89c0d269f90fc.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-40221aa05f9ea1742289.js",
@@ -29,10 +33,6 @@
       "build-js-styles.css",
       "commons-50e9ef4b0ddebd4bf1c3.js.map",
       "build-js-styles.css.map"
-    ],
-    "path---quick-look-into-react-and-vue": [
-      "path---quick-look-into-react-and-vue-3347860ee85854ce9d6f.js",
-      "path---quick-look-into-react-and-vue-3347860ee85854ce9d6f.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -47,9 +47,9 @@
       "path---how-is-your-readability-503a832a6db42ebf8b16.js.map"
     ],
     "app": [
-      "app-0c76ec90318f3b9e36df.js",
+      "app-aa2e98ab57c86482e43d.js",
       "build-js-styles.css",
-      "app-0c76ec90318f3b9e36df.js.map",
+      "app-aa2e98ab57c86482e43d.js.map",
       "build-js-styles.css.map"
     ],
     "path---5-h-hackathon": [
